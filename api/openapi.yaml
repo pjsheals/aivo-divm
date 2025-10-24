@@ -1,0 +1,42 @@
+openapi: 3.0.3
+info:
+  title: DIVM Verification API
+  description: API for ingesting Evidence Packs and retrieving verification results (DIVM v1.0).
+  version: '1.0.0'
+servers:
+  - url: https://api.example.com
+paths:
+  /api/v1/evidence:
+    post:
+      summary: Submit Evidence Pack
+      security: [{ ApiKeyAuth: [] }]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '../schema/evidence-schema-v1.json'
+      responses:
+        '202':
+          description: Accepted for verification
+  /api/v1/status/{id}:
+    get:
+      summary: Get verification status and report
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema: { type: string }
+      responses:
+        '200':
+          description: Current status and (if ready) verification report
+          content:
+            application/json:
+              schema:
+                $ref: '../schema/report-schema-v1.json'
+components:
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: X-API-Key
