@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "DIVM — Data Integrity & Verification Methodology"
+version: 1.0.0
+doi: 10.5281/zenodo.17428848
+authors:
+  - family-names: Sheals
+    given-names: P.J.
+date-released: 2025-10-24
+license: CC-BY-4.0
+message: "If you use this methodology, please cite the DOI."
