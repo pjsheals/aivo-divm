@@ -1,0 +1,15 @@
+{
+  "evidence_id": "00000000-0000-0000-0000-000000000000",
+  "status": "verified",
+  "verdict": "compliant",
+  "metrics": { "ci": 0.03, "cv": 0.0645, "icc": 0.82 },
+  "checks": [
+    {"check":"metadata.model_name_present","pass":true},
+    {"check":"metadata.model_version_present","pass":true},
+    {"check":"metadata.timestamp_valid","pass":true},
+    {"check":"sampling.cluster_min_25","pass":true},
+    {"check":"metrics.ci95_threshold","pass":true,"details":"value=0.03 threshold<=0.05"}
+  ],
+  "report": {},
+  "verified_at": "2025-10-23T12:05:10Z"
+}
