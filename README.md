@@ -1,3 +1,16 @@
+## Historical archive (2025)
+
+This repository is kept as a **historical record** of AIVO's earlier work (DIVM, Data Integrity & Verification Methodology v1.0, 2025). It is **superseded and no longer maintained**, and it does **not** describe AIVO, Inc.'s current methods, products or services.
+
+- AIVO's current work measures and improves whether AI assistants and agents **recommend** a brand at the moment of decision. It is not a GEO, SEO or AI-visibility service.
+- The original paper remains citable at its DOI: https://doi.org/10.5281/zenodo.17428848
+- **Current published methodology and research:** https://zenodo.org/communities/aivostandard
+- **Current products and services:** https://aivomeridian.com and https://aivocorp.com
+
+The original documents follow, unchanged except for a one-line historical note at the top of each.
+
+---
+
 # AIVO DIVM — Data Integrity & Verification Methodology (v1.0)
 
 **DIVM** is the data trust backbone of the **AIVO Standard™** — a governance-grade framework for **AI Visibility Assurance**.

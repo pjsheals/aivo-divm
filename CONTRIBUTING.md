@@ -1,3 +1,5 @@
+> **Historical document (2025), superseded.** Kept as a record of AIVO's earlier work; it does not describe AIVO, Inc.'s current methods, products or services. See the [README](README.md) for current links.
+
 # Contributing to DIVM
 
 Thank you for your interest in contributing!
